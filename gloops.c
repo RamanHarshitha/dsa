@@ -82,3 +82,16 @@ int main(){
 }
 
 */
+int main(){
+    int c=0;
+    int i=0,j;
+    do{
+        j=0;
+        do{
+            printf("%d ",c++);
+            j++;
+        }while(j<3);
+        printf("\n");
+        i++;
+    }while(i<3);
+}
